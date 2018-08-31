@@ -625,3 +625,162 @@ Changes not staged for commit:
 
 no changes added to commit
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push[K[K[K[K[K[K[K[Kgit add -A
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m"third" "third"
+[master 4169d16] third
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 398 insertions(+), 1 deletion(-)
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git -[Kpush origin master
+To https://github.com/oliviahuang2018/olivia_power.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/oliviahuang2018/olivia_power.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[KOlivias-MacBook-Pro:olivia_Draft2 olivia$ xcd[K[K[Kcd
+]0;~Olivias-MacBook-Pro:~ olivia$ ks
+bash: ks: command not found
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Solutions to Sample Coding Questions.ipynb
+05-Writing Python Code.ipynb			Untitled-2.ai
+05_strings.ipynb				Untitled.R
+AnacondaProjects				Untitled.ipynb
+Applications					Untitled1.ipynb
+Creative Cloud Files				Untitled2.ipynb
+DSO 522 - Week 1				Untitled3.ipynb
+Desktop						Untitled4.ipynb
+Documents					Untitled5.ipynb
+Downloads					Untitled6.ipynb
+Homework 3 .ipynb				Untitled7.ipynb
+Homework3_DSO570_Week3.ipynb			Virtual_Resume_Olivia
+Lab 1						__pycache__
+Lab 2 						bin
+Lab 3						decisiontrees.py
+Lab 5						demo3
+Library						dump.rdb
+MIP formulation phase 2.ipynb.txt		gurobi.lic
+Movies						icon.png
+Music						jdk-8u111-macosx-x64.dmg
+Olivia						jdk-8u121-macosx-x64.dmg
+Olivia_V2					jre-8u112-macosx-x64.dmg
+Olivia_V3					olivia_Draft2
+Olivia_V4					olivia_draft
+Olivia_V5					olivia_draft.Rproj
+Olivia_V6					olivia_power
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+Session01- Workshop Python.ipynb
+]0;~Olivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ git add[K[K[Ka[Kremote add origin https://github.com/oliviahuang2018/olivia_power.git
+]0;~Olivias-MacBook-Pro:~ olivia$ git pull origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ~/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls
+archetypes		content			layouts			resources
+config-empty.toml	data			olivia_Draft2.Rproj	static
+config.toml		index.Rmd		public			themes
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ lscd ~/olivia_Draft2git remote add origin https://github.com/oliviahuang2018/olivia_ppower.git\[K
+fatal: remote origin already exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin master
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin masterremote add origin https://github.com/oliviahuang2018/olivia_ppower.git[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/oliviahuang2018/Olivia_ Huang_Website.git
+fatal: remote origin already exists.
+pwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ cd
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Solutions to Sample Coding Questions.ipynb
+05-Writing Python Code.ipynb			Untitled-2.ai
+05_strings.ipynb				Untitled.R
+AnacondaProjects				Untitled.ipynb
+Applications					Untitled1.ipynb
+Creative Cloud Files				Untitled2.ipynb
+DSO 522 - Week 1				Untitled3.ipynb
+Desktop						Untitled4.ipynb
+Documents					Untitled5.ipynb
+Downloads					Untitled6.ipynb
+Homework 3 .ipynb				Untitled7.ipynb
+Homework3_DSO570_Week3.ipynb			Virtual_Resume_Olivia
+Lab 1						__pycache__
+Lab 2 						bin
+Lab 3						decisiontrees.py
+Lab 5						demo3
+Library						dump.rdb
+MIP formulation phase 2.ipynb.txt		gurobi.lic
+Movies						icon.png
+Music						jdk-8u111-macosx-x64.dmg
+Olivia						jdk-8u121-macosx-x64.dmg
+Olivia_V2					jre-8u112-macosx-x64.dmg
+Olivia_V3					olivia_Draft2
+Olivia_V4					olivia_draft
+Olivia_V5					olivia_draft.Rproj
+Olivia_V6					olivia_power
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+Session01- Workshop Python.ipynb
+]0;~Olivias-MacBook-Pro:~ olivia$ pwd
+/Users/olivia
+]0;~Olivias-MacBook-Pro:~ olivia$ pwd
+/Users/olivia
+pwd
+/Users/olivia
+powd[K[K[Kwd
+/Users/olivia
+[KOlivias-MacBook-Pro:~ olivia$ pwd
+/Users/olivia
+[KOlivias-MacBook-Pro:~ olivia$ cd /Olivia[K[K[K[K[K[K[K~/olivia_Draft2/
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ pwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls
+archetypes		content			layouts			resources
+config-empty.toml	data			olivia_Draft2.Rproj	static
+config.toml		index.Rmd		public			themes
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add https://github.com/oliviahuang2018/Olivia_Huang_W ebsite.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add https://github.com/oliviahuang2018/Olivia_Huang_Weebsite.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add https://github.com/oliviahuang2018/Olivia_Huang_Weebsite.git;it2itDit;it2itDit;it2itDit;it2itDit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[1Pit[C[C;10D[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cohttps://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crhttps://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cihttps://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cghttps://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cihttps://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnhttps://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/oliviahuang2018/Olivia_Huang_Website.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+fatal: remote origin already exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin master
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+pwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls
+archetypes		content			layouts			resources
+config-empty.toml	data			olivia_Draft2.Rproj	static
+config.toml		index.Rmd		public			themes
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls[K[Kgit remote add origin https://github.com/oliviahuang2018/Olivia_ Huang_Website.git
+fatal: remote origin already exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin master
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A
