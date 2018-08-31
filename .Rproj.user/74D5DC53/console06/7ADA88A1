@@ -875,3 +875,95 @@ fatal: remote origin already exists.
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote rm origin
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote rm originadd origin https://github.com/oliviahuang2018/olivia_ppower.git
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git -add[K[K[K[Kadd -A
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m"[K "Second"
+[master 28a14fd] Second
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 112 insertions(+), 20 deletions(-)
+ rewrite .RData (94%)
+ rewrite .Rproj.user/74D5DC53/console06/INDEX001 (85%)
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push orio[Kgin[K[K[K[K[K[K[K[K[Kll origin master
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin masterpus[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksh origin master
+To https://github.com/oliviahuang2018/olivia_power.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/oliviahuang2018/olivia_power.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+pwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remove rm origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote rm origin
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ cd[K[Kpwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ cd[K[Kpwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ pwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git clone[K[K[K[K[Kremote add origi[K[Kgin https://github.com/oliviahuang2018/olivia_ power.git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git init
+Reinitialized existing Git repository in /Users/olivia/olivia_Draft2/.git/
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin master
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ --allow-unrelated-histories
+bash: --allow-unrelated-histories: command not found
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ giot[K[Kr --allow-unrelated-histories
+bash: gir: command not found
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git checkout master
+M	.Rhistory
+M	.Rproj.user/74D5DC53/console06/7ADA88A1
+M	.Rproj.user/74D5DC53/console06/7ADA88A1.env
+M	.Rproj.user/74D5DC53/console06/INDEX001
+M	.Rproj.user/74D5DC53/pcs/windowlayoutstate.pper
+M	.Rproj.user/74D5DC53/pcs/workbench-pane.pper
+Already on 'master'
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git merge origin/master --allow-unrelated-histories
+[?2004herror: There was a problem with the editor 'vi'.
+Not committing merge; use 'git commit' to complete the merge.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin master
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m "second"
+[master 8ddc3eb] second
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull origin master
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A
