@@ -228,3 +228,400 @@ hint: See "git help submodule" for more information.
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -Als[Kgit remote add origin https://github.com/oliviahuang2018/olivia_power.git
 fatal: remote origin already exists.
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/olivia_power.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m "my first message"
+[master (root-commit) b89d99a] my first message
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 335 files changed, 7718 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .RData
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/74D5DC53/console06/7ADA88A1
+ create mode 100644 .Rproj.user/74D5DC53/console06/7ADA88A1.env
+ create mode 100644 .Rproj.user/74D5DC53/console06/INDEX001
+ create mode 100644 .Rproj.user/74D5DC53/pcs/debug-breakpoints.pper
+ create mode 100644 .Rproj.user/74D5DC53/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/74D5DC53/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/74D5DC53/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/74D5DC53/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/74D5DC53/persistent-state
+ create mode 100644 .Rproj.user/74D5DC53/rmd-outputs
+ create mode 100644 .Rproj.user/74D5DC53/saved_source_markers
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/13512D8F
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/1497A12F
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/177F2833
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/17E484FE
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/196815DF
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/1ADA44BC
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/1D0670B3
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/1DEB97A0
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/1EA56672
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/28A0150E
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/2A5BAECC
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/2B8CD27F
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/3080B3B9
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/31A4F812
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/3D7B5997
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/43744E1A
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/445A15C0
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/46EDAFFB
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/4B15EBA6
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/54662395
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/5538158D
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/579E49E3
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/5943711F
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/6101291E
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/69F2796F
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/6B1A3764
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/6EBB031
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/6F192300
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/708FDABC
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/7633BCE8
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/7BD2CD26
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/7EBA43D4
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/81688847
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/8733247
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/994FC988
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/A5E7CF69
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/AB183319
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/AB1AC090
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/AEA0BF39
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/AF3BB924
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/B4BF7165
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/B8209D41
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/C1BF4616
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/C4D53602
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/CD2BCC40
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/CF4DD509
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/D4171246
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/D733BFB6
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/D9A68AEF
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/DBC87DED
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/DFF34AF8
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/E2A208B3
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/F143975F
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/FB5F3BB
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/FE58DD20
+ create mode 100644 .Rproj.user/74D5DC53/sources/prop/INDEX
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/134D58A3
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/134D58A3-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/18656E8D
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/18656E8D-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/32CF592B
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/32CF592B-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/33714A02
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/33714A02-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/7C3F7F2B
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/7C3F7F2B-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/BB87A93
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/BB87A93-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/DBE50A73
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/DBE50A73-contents
+ create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/lock_file
+ create mode 100644 .Rproj.user/74D5DC53/viewer-cache/FEA86A57.Rdata
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/74D5DC53FDBF71C7/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cobytc27ew0mo/00002b.csv
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cobytc27ew0mo/00002c.error
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cp5f2afu6cz6a/00004f.metadata
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cp5f2afu6cz6a/00004f.png
+ create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cp5f2afu6cz6a/00004f.snapshot
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 archetypes/default.md
+ create mode 100644 config-empty.toml
+ create mode 100644 config.toml
+ create mode 100644 content/360pro.md
+ create mode 100644 content/cope.md
+ create mode 100644 content/tedx.md
+ create mode 100644 data/process/Experiences.yaml
+ create mode 100644 data/process/coursework.yaml
+ create mode 100644 data/process/design.yaml
+ create mode 100644 data/process/discovery.yaml
+ create mode 100644 data/process/research.yaml
+ create mode 100644 data/process/skills.yaml
+ create mode 100644 index.Rmd
+ create mode 100644 olivia_Draft2.Rproj
+ create mode 100644 public/.DS_Store
+ create mode 100644 public/360pro/.DS_Store
+ create mode 100644 public/360pro/DSO 562 Project 1 (2).pdf
+ create mode 100644 public/360pro/img/.DS_Store
+ create mode 100644 public/360pro/img/Screen Shot 2018-08-19 at 9.45.00 PM.png
+ create mode 100644 public/360pro/img/Screen Shot 2018-08-19 at 9.45.18 PM.png
+ create mode 100644 public/360pro/img/chappy.jpg
+ create mode 100644 public/360pro/img/dfd.png
+ create mode 100644 public/360pro/img/featured-360.jpg
+ create mode 100644 public/360pro/img/field.jpg
+ create mode 100644 public/360pro/img/jobstories.jpg
+ create mode 100644 public/360pro/img/project.jpg
+ create mode 100644 public/360pro/img/project.png
+ create mode 100644 public/360pro/img/project1.png
+ create mode 100644 public/360pro/img/project2.png
+ create mode 100644 public/360pro/img/project3.png
+ create mode 100644 public/360pro/img/project4.png
+ create mode 100644 public/360pro/img/starttest.png
+ create mode 100644 public/360pro/img/testing.png
+ create mode 100644 public/360pro/img/track.jpg
+ create mode 100644 public/360pro/index.html
+ create mode 100644 public/360pro/project1.pdf
+ create mode 100644 public/Final Report.pdf
+ create mode 100644 public/ResumeCollado.pdf
+ create mode 100644 public/categories/index.xml
+ create mode 100644 public/cope.pdf
+ create mode 100644 public/cope/.DS_Store
+ create mode 100644 public/cope/img/.DS_Store
+ create mode 100644 public/cope/img/film.jpg
+ create mode 100644 public/cope/img/film.png
+ create mode 100644 public/cope/index.html
+ create mode 100644 public/css/final.css
+ create mode 100644 public/css/normalize.css
+ create mode 100644 public/img/.DS_Store
+ create mode 100644 public/img/20170825_MSBA_Portraits_0895_F.jpg
+ create mode 100644 public/img/360.jpg
+ create mode 100644 public/img/Untitled-2_Artboard .png
+ create mode 100644 public/img/cope.jpg
+ create mode 100644 public/img/favicon.png
+ create mode 100644 public/img/film.jpg
+ create mode 100644 public/img/icon-01.png
+ create mode 100644 public/img/icon.png
+ create mode 100644 public/img/logo-02.png
+ create mode 100644 public/img/logo-03.png
+ create mode 100644 public/img/logo.png
+ create mode 100644 public/img/logo1.png
+ create mode 100644 public/img/los angeles.jpg
+ create mode 100644 public/img/medium.png
+ create mode 100644 public/img/olivia.jpg
+ create mode 100644 public/img/olivia.png
+ create mode 100644 public/img/olivia_logo.jpg
+ create mode 100644 public/img/oliviahuang.png
+ create mode 100644 public/img/portfolio.jpg
+ create mode 100644 public/img/project.jpg
+ create mode 100644 public/img/tedx.jpg
+ create mode 100644 public/index.html
+ create mode 100644 public/index.xml
+ create mode 100644 public/js/jquery-1.js
+ create mode 100644 public/js/scrollIt.js
+ create mode 100644 public/js/stickUp.js
+ create mode 100644 public/sitemap.xml
+ create mode 100644 public/svg/book.svg
+ create mode 100644 public/svg/closetag.svg
+ create mode 100644 public/svg/dl-resume.svg
+ create mode 100644 public/svg/download.svg
+ create mode 100644 public/svg/eyeball.svg
+ create mode 100644 public/svg/repeat.svg
+ create mode 100644 public/svg/rulerpencil.svg
+ create mode 100644 public/svg/ui.svg
+ create mode 100644 public/svg/wand.svg
+ create mode 100644 public/tags/index.xml
+ create mode 100644 public/tags/plot/index.xml
+ create mode 100644 public/tags/r-markdown/index.xml
+ create mode 100644 public/tags/regression/index.xml
+ create mode 100644 public/tedx/.DS_Store
+ create mode 100644 public/tedx/Final Report.pdf
+ create mode 100644 public/tedx/img/.DS_Store
+ create mode 100644 public/tedx/img/545_final!!.pdf
+ create mode 100644 public/tedx/img/cta.png
+ create mode 100644 public/tedx/img/enzo.jpg
+ create mode 100644 public/tedx/img/events.png
+ create mode 100644 public/tedx/img/featured-tedx.jpg
+ create mode 100644 public/tedx/img/los angeles.jpg
+ create mode 100644 public/tedx/img/moodboard.jpg
+ create mode 100644 public/tedx/img/nate.jpg
+ create mode 100644 public/tedx/img/nextstepsted.jpg
+ create mode 100644 public/tedx/img/p1.png
+ create mode 100644 public/tedx/img/p2.png
+ create mode 100644 public/tedx/img/phases.png
+ create mode 100644 public/tedx/img/ppt.pdf
+ create mode 100644 public/tedx/img/project.png
+ create mode 100644 public/tedx/img/project1.png
+ create mode 100644 public/tedx/img/project2.png
+ create mode 100644 public/tedx/img/projecti7.jpg
+ create mode 100644 public/tedx/img/sketchted.jpg
+ create mode 100644 public/tedx/img/whycoordinate.jpg
+ create mode 100644 public/tedx/index.html
+ create mode 100644 public/tedx/ppt.pdf
+ create mode 100644 static/.DS_Store
+ create mode 100644 static/360pro/.DS_Store
+ create mode 100644 static/360pro/img/.DS_Store
+ create mode 100644 static/360pro/img/project.jpg
+ create mode 100644 static/360pro/img/project.png
+ create mode 100644 static/360pro/img/project1.png
+ create mode 100644 static/360pro/img/project2.png
+ create mode 100644 static/360pro/img/project3.png
+ create mode 100644 static/360pro/img/project4.png
+ create mode 100644 static/360pro/project1.pdf
+ create mode 100644 static/ResumeCollado.pdf
+ create mode 100644 static/cope.pdf
+ create mode 100644 static/cope/.DS_Store
+ create mode 100644 static/cope/img/.DS_Store
+ create mode 100644 static/cope/img/film.jpg
+ create mode 100644 static/cope/img/film.png
+ create mode 100644 static/img/.DS_Store
+ create mode 100644 static/img/favicon.png
+ create mode 100644 static/img/film.jpg
+ create mode 100644 static/img/icon-01.png
+ create mode 100644 static/img/logo-02.png
+ create mode 100644 static/img/logo-03.png
+ create mode 100644 static/img/logo.png
+ create mode 100644 static/img/los angeles.jpg
+ create mode 100644 static/img/olivia.jpg
+ create mode 100644 static/img/olivia.png
+ create mode 100644 static/img/oliviahuang.png
+ create mode 100644 static/img/portfolio.jpg
+ create mode 100644 static/img/project.jpg
+ create mode 100644 static/tedx/.DS_Store
+ create mode 100644 static/tedx/Final Report.pdf
+ create mode 100644 static/tedx/img/.DS_Store
+ create mode 100644 static/tedx/img/los angeles.jpg
+ create mode 100644 static/tedx/img/p1.png
+ create mode 100644 static/tedx/img/p2.png
+ create mode 100644 static/tedx/img/project.png
+ create mode 100644 static/tedx/img/project1.png
+ create mode 100644 static/tedx/img/project2.png
+ create mode 100644 static/tedx/ppt.pdf
+ create mode 100644 themes/.DS_Store
+ create mode 100644 themes/hugo-lodi-theme/.DS_Store
+ create mode 100644 themes/hugo-lodi-theme/LICENSE.md
+ create mode 100644 themes/hugo-lodi-theme/README.md
+ create mode 100644 themes/hugo-lodi-theme/archetypes/default.md
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/archetypes/default.md
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/config-empty.toml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/config.toml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/content/360pro.md
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/content/cope.md
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/content/tedx.md
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/data/process/design.yaml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/data/process/development.yaml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/data/process/discovery.yaml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/data/process/iteration.yaml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/data/process/repeat.yaml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/data/process/research.yaml
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/chappy.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/dfd.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/featured-360.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/field.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/jobstories.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/starttest.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/testing.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/360pro/img/track.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/ResumeCollado.pdf
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope.pdf
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/add-medicine.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/calendar.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/competition-cope.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/cope-final.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/discarded.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/featured-cope.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/flow.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/john.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/persona.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/sketch.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/cope/img/summary.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/360.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/avatar.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/cope.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/favicon.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/logo.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/portfolio.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/img/tedx.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/cta.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/enzo.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/events.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/featured-tedx.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/moodboard.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/nate.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/nextstepsted.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/phases.png
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/projecti7.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/sketchted.jpg
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/static/tedx/img/whycoordinate.jpg
+ create mode 100644 themes/hugo-lodi-theme/images/screenshot.png
+ create mode 100644 themes/hugo-lodi-theme/images/tn.png
+ create mode 100644 themes/hugo-lodi-theme/layouts/.DS_Store
+ create mode 100644 themes/hugo-lodi-theme/layouts/_default/list.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/_default/single.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/index.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/case_studies.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/casestudy_main.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/footer.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/head.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/head_casestudy.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/hero.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/nav.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/nav_casestudy.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/process.html
+ create mode 100644 themes/hugo-lodi-theme/layouts/partials/scripts.html
+ create mode 100644 themes/hugo-lodi-theme/static/.DS_Store
+ create mode 100644 themes/hugo-lodi-theme/static/css/final.css
+ create mode 100644 themes/hugo-lodi-theme/static/css/normalize.css
+ create mode 100644 themes/hugo-lodi-theme/static/img/medium.png
+ create mode 100644 themes/hugo-lodi-theme/static/js/jquery-1.js
+ create mode 100644 themes/hugo-lodi-theme/static/js/scrollIt.js
+ create mode 100644 themes/hugo-lodi-theme/static/js/stickUp.js
+ create mode 100644 themes/hugo-lodi-theme/static/svg/book.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/closetag.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/dl-resume.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/download.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/eyeball.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/repeat.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/rulerpencil.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/ui.svg
+ create mode 100644 themes/hugo-lodi-theme/static/svg/wand.svg
+ create mode 100644 themes/hugo-lodi-theme/theme.toml
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git -push
+Unknown option: -push
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ggit p[K[K[K[K[Kit push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push -origin master [K
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push origin master
+To https://github.com/oliviahuang2018/olivia_power.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/oliviahuang2018/olivia_power.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/olivia_power.git
+fatal: remote origin already exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git pull oriogin[K[K[K[Kgin master
+warning: no common commits
+remote: Counting objects: 3, done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/oliviahuang2018/olivia_power
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m "second"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/74D5DC53/console06/7ADA88A1[m
+
+no changes added to commit
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push[K[K[K[K[K[K[K[Kgit add -A
