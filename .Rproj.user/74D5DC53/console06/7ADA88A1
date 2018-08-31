@@ -784,3 +784,94 @@ From https://github.com/oliviahuang2018/olivia_power
  * branch            master     -> FETCH_HEAD
 fatal: refusing to merge unrelated histories
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m "Second mess"[K[Ksage"
+[master 7d68ce4] Second message
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 29 files changed, 181 insertions(+), 1161 deletions(-)
+ rewrite .RData (94%)
+ rewrite .Rproj.user/74D5DC53/console06/INDEX001 (84%)
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/134D58A3
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/134D58A3-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/18656E8D
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/18656E8D-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/32CF592B
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/32CF592B-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/33714A02
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/33714A02-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/7C3F7F2B
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/7C3F7F2B-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/BB87A93
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/BB87A93-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/DBE50A73
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/DBE50A73-contents
+ delete mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/lock_file
+ delete mode 100644 .Rproj.user/74D5DC53/viewer-cache/FEA86A57.Rdata
+ create mode 100644 .gitignore
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push origin masrwe[K[K[Kter
+To https://github.com/oliviahuang2018/olivia_power.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/oliviahuang2018/olivia_power.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[KOlivias-MacBook-Pro:olivia_Draft2 olivia$ cd
+]0;~Olivias-MacBook-Pro:~ olivia$ pwd
+/Users/olivia
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Session01- Workshop Python.ipynb
+05-Writing Python Code.ipynb			Solutions to Sample Coding Questions.ipynb
+05_strings.ipynb				Untitled-2.ai
+AnacondaProjects				Untitled.R
+Applications					Untitled.ipynb
+Creative Cloud Files				Untitled1.ipynb
+DSO 522 - Week 1				Untitled2.ipynb
+Desktop						Untitled3.ipynb
+Documents					Untitled4.ipynb
+Downloads					Untitled5.ipynb
+Homework 3 .ipynb				Untitled6.ipynb
+Homework3_DSO570_Week3.ipynb			Untitled7.ipynb
+Lab 1						Virtual_Resume_Olivia
+Lab 2 						__pycache__
+Lab 3						bin
+Lab 5						decisiontrees.py
+Library						demo3
+MIP formulation phase 2.ipynb.txt		dump.rdb
+Movies						gurobi.lic
+Music						icon.png
+Olivia						jdk-8u111-macosx-x64.dmg
+Olivia_Power_Testing				jdk-8u121-macosx-x64.dmg
+Olivia_V2					jre-8u112-macosx-x64.dmg
+Olivia_V3					olivia_Draft2
+Olivia_V4					olivia_draft
+Olivia_V5					olivia_draft.Rproj
+Olivia_V6					olivia_power
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+README.md
+[KOlivias-MacBook-Pro:~ olivia$ pwd
+/Users/olivia
+]0;~Olivias-MacBook-Pro:~ olivia$ cd ~/oklii[K[K[K[Klivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ pwd
+/Users/olivia/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git in i[K[K[Knit
+Reinitialized existing Git repository in /Users/olivia/olivia_Draft2/.git/
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/olivia_ power.git
+fatal: remote origin already exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote rm origin
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote rm originadd origin https://github.com/oliviahuang2018/olivia_ppower.git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git -add[K[K[K[Kadd -A
