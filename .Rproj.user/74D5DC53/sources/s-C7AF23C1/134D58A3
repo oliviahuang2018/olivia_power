@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534613396474.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "134D58A3",
+    "lastKnownWriteTime" : 1535090106,
+    "last_content_update" : 1535090106853,
+    "path" : "~/olivia_Draft2/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "5,34",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

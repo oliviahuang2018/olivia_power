@@ -1,0 +1,5 @@
+"0","titanic_3 = titanic_2[,-titanic_2$Cabin]
+"
+"2","‘-’ not meaningful for factors"
+"2","Error: Length of logical index vector must be 1 or 12 (the number of columns), not 1309
+"

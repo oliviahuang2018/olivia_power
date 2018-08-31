@@ -1,0 +1,226 @@
+library(ggplot2)
+library(dplyr)
+library(rJava)
+library(xlsxjars) 
+library(xlsx)
+library(readxl)
+setwd("~/Desktop/DSO 562/Project 3")
+
+data= read_xlsx("card transactions.xlsx", sheet = 'Sheet1')
+
+str(data)
+
+merch= data%>%
+  select(Merchantnum) %>% 
+  arrange(-Merchantnum)  %>% 
+  summarise(count=n())
+str(data)
+
+#Data Cleaning 
+
+#Remmove records where transaction type are A,D,Y, as per Professor instruction. 
+#We will be build algorithms around transaction type P 
+#Remove recordnum 52594 (incorrect record since records as Mexican Pesos)
+
+data = data %>% 
+  filter(Transtype == "P", Recordnum != 52594) 
+
+# Fill in missing values for Merchant num, merchant state, merchant zip 
+zip = data %>% 
+  filter(is.na(Merchant.Zip))
+
+#If zip observation has State value, Fill in Zip with most common zip in that state 
+
+###Find most common zip for each state  
+state = data %>%
+   group_by(`Merchant State`, `Merchant Zip`) %>%
+   summarise(count=n()) %>% 
+  top_n(1,count)
+
+write.csv(state,'topzipstate.csv')
+
+## Fill in missing states 
+###Find most common state for each merchant description 
+merchdescr = data %>% 
+  group_by(`Merchant State`,`Merch Description`) %>% 
+  summarise(count=n()) %>% 
+  top_n(1,count) 
+
+write.csv(merchdescr,'topstatemerchdes.csv')
+
+
+topstatepermerch = data %>% 
+  group_by(`Merch Description`, `Merchant State`, `Merchant Zip`) %>% 
+  summarise(count=n()) %>% 
+  top_n(1,count)
+write.csv(topstatepermerch, 'topstate_per_merch.csv')
+
+
+write.csv(merchdescr, 'top_merchdescr_per_state.csv')
+write.csv(state, 'top_zip_per_state.csv')
+
+
+data_withzip = read_xlsx('card transactions_merch_zip_filled .xlsx', sheet = 'Sheet1')
+
+####Find most common merchant num by zip (using all zips filled in) 
+merchnum = data_withzip %>% 
+  group_by(Merchantnum, Zip2) %>% 
+  summarise(count =n()) %>% 
+  top_n(1,count)
+
+merchnum = data_withzip %>% 
+  group_by(Zip2, Merchantnum, `Merch Description`) %>% 
+  summarise(count =n()) %>% 
+  top_n(1,count)
+
+
+write.csv(merchnum, 'Tmerchnum_per_zip.csv')
+
+
+unique_values <- sapply(data_withzip, function(x) length(unique(x)))
+unique_values
+
+merchnum = data_withzip %>% 
+  group_by(Merchantnum, Zip2) %>% 
+  summarise(count =n()) %>% 
+  top_n(1,count)
+
+write.csv(merchnum, 'topmerchnum_by_zip.csv')
+
+
+replacementVals <- fstate$Merchant.Zip 
+replacementVals
+
+toReplace <- which(is.na(data2$Merchant.Zip))
+
+data3 <- apply(data2,2,function(Merchant.Zip) Merchant.State[Merchant.Zip==99501] )
+data3 = data2 %>% if(Merchant.State ==AK && is.na(Merchant.Zip))
+  {
+  Merchant.Zip == 99501}
+str(data2)
+data2$Merchant.State = as.character(data2$Merchant.State)
+   
+   
+   str(state)
+
+#Replace all NA merchant.zip values with the most common zip in that State 
+
+
+apply(data2, 2, function(x){
+  x[is.na(x)] <- names(which.max(table(x)))
+  return(x) })
+
+
+
+
+}
+?apply
+
+data2 = data %>% 
+  group_by(Merchant.State) %>% 
+  mutate(Merchant.Zip = replace(Merchant.Zip, is.na(Merchant.Zip), state$Merchant.Zip)) 
+
+if(is.na(Merchant.Zip), state)
+
+
+ x= data2 %>% 
+   filter(is.na(Merchant.Zip))
+
+
+  filter(is.na(Merchant.Zip))
+warnings()
+
+data2 = data2 %>% 
+  filter(is.na(Merchant.Zip))
+
+data2 = data %>% 
+  group_by(Merchant.Zip) %>% 
+  mutate(Merchant.Zip = unique(Merchant.Zip[!is.na(Merchant.Zip)]))
+
+
+#Replace remaining NA merchant.zip values (with no state value) by "99999" 
+data2$Merchant.Zip[which(is.na(data2$Merchant.Zip))] <- 99999 
+
+
+#Time to fill empty merchant.state values 
+
+x=data %>% 
+  filter(data$Merchant.State=="") 
+# We have 1020 records with no merchant.state value 
+
+##First type, we have merchant.zip but no state--> match to the right state 
+x=data %>% 
+  filter(data$Merchant.State=="", !is.na(data$Merchant.Zip))
+
+###Fill state with merchant.zip less that 5 digits by "X" 
+data2 = data2 %>% 
+  group_by(Merchant.State,Merchant.Zip) %>% 
+  filter(Merchant.Zip<1000) %>% 
+  mutate(Merchant.State = replace(Merchant.State, !is.na(Merchant.State), Merchant.State))
+
+str(data2)
+#Number of missing values in each field
+missing_values <- sapply(data, function(x) sum(is.na(x)))
+missing_values
+         
+
+matchStatetoZip = data %>% 
+  group_by(Merchant.State, Merchant.Zip) %>% 
+  summarise(count=n()) %>% 
+  filter(Merchant.Zip==12108)
+
+
+## if statement if zip has 3 number, add two 0's , if zip has 4 number, add one 0, etc. 
+str(data)
+data2$Merchant.Zip = as.character(data2$Merchant.Zip)
+
+
+data1 = data %>% filter(!is.na(data$Merchant.Zip))
+str(data1)
+#testing
+data1$Merchant.Zip[32] = sprintf("%05d",data1$Merchant.Zip[32])
+
+       
+f = function(x) {
+  for (i in 1:dim(data1)[1]){
+    data1$Merchant.Zip[i] = sprintf("%05d", data1$Merchant.Zip[i])
+  }
+}
+
+
+dim(data1)[1]
+
+  
+  
+unique_values <- sapply(data, function(x) length(unique(x)))
+unique_values
+  
+##Function to add beginning 0's to make all zips 5 digits total
+for (i in 1:dim(data1)[1]){
+    data1$Merchant.Zip[i] = sprintf("%05d", as.integer(data1$Merchant.Zip[i]))
+  }
+
+
+
+
+x=sprintf("%05d",data$Merchant.Zip[1])
+dim(data)[1]
+data$Merchant.Zip[2]
+
+library(stringr)
+data
+
+library(xlsx)
+data_withpartialmerchnum = read_excel('card transactions_merch_zip__merchnum partial_filled .xlsx', sheet = 'Fill merchnum using descrip')
+View(data_withpartialmerchnum)
+data_withpartialmerchnum$MerchStateZip = paste(data_withpartialmerchnum$`Merch State 2`,data_withpartialmerchnum$Zip2)
+
+write.csv(data_withpartialmerchnum, 'data_withMerchStateZip2.csv')
+####Find top merchant num for each state zip combo
+merchstatezip = data_withpartialmerchnum %>% 
+  group_by(Merchantnum2, MerchStateZip) %>% 
+  summarise(count=n()) %>% 
+  top_n(1,count)
+
+write.csv(merchstatezip, 'topmerchnum_Per_Statezip.csv')
+

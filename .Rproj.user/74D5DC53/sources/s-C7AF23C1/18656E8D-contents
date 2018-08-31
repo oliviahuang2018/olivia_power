@@ -1,0 +1,263 @@
+library(ggplot2)
+library(dplyr) 
+setwd("~/Desktop/DSO 562/Project 3")
+
+data= read.csv("card transactions.csv")
+
+summarize(data)
+dim(data)
+View(data)
+str(data)
+summarize(data)
+summary(data)
+
+data$Amount = as.numeric(data$Amount)
+str(data)
+
+card = data %>% 
+  group_by(Cardnum) %>% 
+ summarise(count=n())
+
+
+date = data %>% 
+  group_by(Date) %>% 
+  summarise(count=n())
+
+
+merchnum = data %>% 
+  group_by(Amount) %>% 
+  summarise(count=n())
+
+
+creditc = data %>% 
+  group_by(Cardnum)  %>% 
+  summarise(count = n()) %>% 
+  arrange(-count) %>% 
+  head(20) 
+
+ggplot(creditc, aes(x=))
+
+
+ggplot(creditc, aes(x=reorder(Cardnum,count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Credit Card Number")+
+  ylab("Number of Applications")+
+  coord_flip() + 
+  theme_minimal()+
+  ggtitle("Top 20 Credit Card Numbers with Highest Application Count")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count), hjust=0)
+
+
+creditc = data %>% 
+  group_by(Cardnum)  %>% 
+  summarise(count = n()) %>% 
+  arrange(-count) %>% 
+  head(20) 
+str(data)
+
+library(lubridate)
+
+data$Date = mdy(data$Date)
+library(tidyr)
+
+
+data$Date = mdy(data$Date)
+library(tidyr)
+library(lubridate)
+data = data %>% 
+  separate("Date", c("Year", "Month", "Day"), sep = "-")
+
+month = data %>% 
+  group_by(Month) %>%
+  summarise(applications = n()) 
+
+ggplot(month, aes(x=Month, y= applications))+
+  geom_bar(stat= "identity",fill="forestgreen", width=0.4)+ 
+  xlab("Month")+
+  ylab("Number of Transactions")+
+  scale_x_discrete(labels=c("01" = "January", 
+                            "02" = "February",
+                            "03" = "March",
+                            "04" = "April",
+                            "05" = "May",
+                            "06" = "June",
+                            "07" = "July",
+                            "08" = "August",
+                            "09" = "September",
+                            "10" = "October",
+                            "11" = "November", 
+                            "12" = "December")) +
+                     theme_minimal()+
+                     ggtitle("Montly Distribution of Credit Card Transactions")+
+                     theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=applications), hjust=0.5, vjust=-0.2)
+
+
+
+day = data %>% 
+  separate("Date", c("Year", "Month", "Day"), sep = "-") %>% 
+  group_by(Day) %>%
+  summarise(applications = n())
+
+
+ggplot(day, aes(x=Day, y=applications))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.7)+ 
+  xlab("Day")+
+  ylab("Number of Transactions")+
+  theme_minimal()+
+  ggtitle("Daily Distribution of Credit Card Transactions")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=applications), hjust=0.5, vjust=-0.2,size=3)
+
+merchantnum = data %>% 
+  group_by(Merchantnum) %>% 
+  summarise(count=n()) %>% 
+  arrange(-count) %>% 
+  head(20)
+
+ggplot(merchantnum, aes(x=reorder(Merchantnum,count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Merchant Number")+
+  ylab("Number of Transactions")+
+  coord_flip() + 
+  theme_minimal()+
+  ggtitle("Top 20 Merchant Numbers with Highest Transaction Count")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count), hjust=0)
+
+merchdescrip = data %>% 
+  group_by(Merch.Description)%>% 
+  summarise(count=n()) %>% 
+  arrange(-count) %>% 
+  head(20)
+
+
+ggplot(merchdescrip, aes(x=reorder(Merch.Description,count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Merchant Description")+
+  ylab("Number of Transactions")+
+  coord_flip() + 
+  theme_minimal()+
+  ggtitle("Top 20 Merchant Descriptions with Highest Transaction Count")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count), hjust=0, size=3)
+
+merchstate= data %>% 
+  group_by(Merchant.State) %>% 
+  summarise(count=n()) %>% 
+  arrange(-count) %>% 
+  head(20)
+
+
+ggplot(merchstate, aes(x=reorder(Merchant.State,-count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Merchant State")+
+  ylab("Number of Transactions")+
+  theme_minimal()+
+  ggtitle("Top 20 Merchant States with Highest Transaction Count")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count),hjust=0.5, vjust=-0.2, size=3)
+
+
+merchzip= data %>% 
+  group_by(Merchant.Zip) %>% 
+  summarise(count=n()) %>% 
+  arrange(-count) %>% 
+  head(20)
+
+str(data)
+ggplot(merchzip, aes(x=reorder(Merchant.Zip,count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Merchant Zip Code")+
+  ylab("Number of Transactions")+
+  theme_minimal()+
+  coord_flip()+
+  ggtitle("Top 20 Merchant Zip Codes with Highest Transaction Count")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count),hjust=0, size=3)
+
+
+transtype= data %>% 
+  group_by(Transtype) %>% 
+  summarise(count=n()) %>% 
+  arrange(-count) 
+
+ggplot(transtype, aes(x=reorder(Transtype,-count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Transaction Type")+
+  ylab("Number of Transactions")+
+  theme_minimal()+
+  ggtitle("Transaction Count for Different Transaction Types")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count),hjust=0.5, vjust=-0.2, size=3)
+
+
+
+str(data)
+
+data$Amount = as.numeric(gsub(c("\\$",",","",data$Amount)))
+
+
+
+amount= data %>% 
+  group_by(Amount) %>% 
+  summarise(count=n()) %>%
+  arrange(-count) %>% 
+  head(20)
+
+
+
+ggplot(amount, aes(x=reorder(Amount,count), y=count))+
+  geom_bar(stat="identity",fill="forestgreen", width=0.4)+ 
+  xlab("Transaction Amount ($)")+
+  ylab("Number of Transactions")+
+  coord_flip() + 
+  theme_minimal()+
+  ggtitle("Top 20 Transaction Amounts with Highest Transaction Count")+
+  theme(plot.title = element_text(size=14, hjust=0))+
+  geom_text(aes(label=count), hjust=0, size=3)
+
+fraud =data %>% 
+  group_by(Fraud) %>% 
+  summarise(count=n()) 
+
+str(data)
+
+data$Fraud = as.factor(data$Fraud)
+
+ggplot(fraud,aes(x=as.factor(Fraud), y=count))+
+  geom_bar(stat="identity", fill="forestgreen", width = 0.3) + # stat=identity because specify y that is numerical
+  ggtitle("Fraud Distribution of Transactions")+
+  xlab("Fraud")+
+  ylab("Number of Transactions")+ 
+  theme_minimal()+
+  geom_text(aes(x=as.factor(Fraud), label = count, vjust=-0.2))
+
+
+
+data$Date = mdy(data$Date)
+library(tidyr)
+library(lubridate)
+data = data %>% 
+  separate("Date", c("Year", "Month", "Day"), sep = "-")
+
+str(data)
+data$month = month(data$month, label=TRUE)
+#take date variable and create month variable
+#takes category transform from 1...12 gto Jan - Dec
+
+data$day = as.factor(day(data$date)) #create day variablw
+#transform to categorical using as.factor (was integer before)
+
+levels(applications$month) = rev(
+  levels(applications$month))
+
+ggplot(data, aes(x=month))+
+  geom_bar(fill="forestgreen", width = 0.6)+  #when don't specify stat, means want distribution 
+  ggtitle("Monthly Distribution of Applications")+
+  xlab("Month")+
+  ylab("Number of Applications")+ 
+  theme_minimal()+
+  geom_text(aes(x=month), hjust=0)
+

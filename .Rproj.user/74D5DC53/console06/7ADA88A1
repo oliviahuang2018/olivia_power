@@ -1,0 +1,230 @@
+]0;~/olivia_Draft2[?1034hOlivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ huog[K[Kgo server
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            |  7  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 54  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 293 ms
+Watching for changes in /Users/olivia/olivia_Draft2/{content,data,layouts,static,themes}
+Watching for config changes in /Users/olivia/olivia_Draft2/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+ ^C]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote ass origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add por[K[K[Korigin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git repo add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.git [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+git: 'repo' is not a git command. See 'git --help'.
+
+The most similar commands are
+	grep
+	reflog
+	remote
+	repack
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote adds[K origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2[?1034hOlivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.giit[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Ke
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g ikt[K[Kt
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote D[Kadd origin https://github.com/oliviahuang2018/olivia_power.git
+fatal: Not a git repository (or any of the parent directories): .git
+[KOlivias-MacBook-Pro:olivia_Draft2 olivia$ cd
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Session01- Workshop Python.ipynb
+05-Writing Python Code.ipynb			Solutions to Sample Coding Questions.ipynb
+05_strings.ipynb				Untitled-2.ai
+AnacondaProjects				Untitled.R
+Applications					Untitled.ipynb
+Creative Cloud Files				Untitled1.ipynb
+DSO 522 - Week 1				Untitled2.ipynb
+Desktop						Untitled3.ipynb
+Documents					Untitled4.ipynb
+Downloads					Untitled5.ipynb
+Homework 3 .ipynb				Untitled6.ipynb
+Homework3_DSO570_Week3.ipynb			Untitled7.ipynb
+Lab 1						Virtual_Resume_Olivia
+Lab 2 						__pycache__
+Lab 3						bin
+Lab 5						decisiontrees.py
+Library						demo3
+MIP formulation phase 2.ipynb.txt		dump.rdb
+Movies						gurobi.lic
+Music						icon.png
+Olivia						jdk-8u111-macosx-x64.dmg
+Olivia_V2					jdk-8u121-macosx-x64.dmg
+Olivia_V3					jre-8u112-macosx-x64.dmg
+Olivia_V4					olivia_Draft2
+Olivia_V5					olivia_draft
+Olivia_V6					olivia_draft.Rproj
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+]0;~Olivias-MacBook-Pro:~ olivia$ cd
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Session01- Workshop Python.ipynb
+05-Writing Python Code.ipynb			Solutions to Sample Coding Questions.ipynb
+05_strings.ipynb				Untitled-2.ai
+AnacondaProjects				Untitled.R
+Applications					Untitled.ipynb
+Creative Cloud Files				Untitled1.ipynb
+DSO 522 - Week 1				Untitled2.ipynb
+Desktop						Untitled3.ipynb
+Documents					Untitled4.ipynb
+Downloads					Untitled5.ipynb
+Homework 3 .ipynb				Untitled6.ipynb
+Homework3_DSO570_Week3.ipynb			Untitled7.ipynb
+Lab 1						Virtual_Resume_Olivia
+Lab 2 						__pycache__
+Lab 3						bin
+Lab 5						decisiontrees.py
+Library						demo3
+MIP formulation phase 2.ipynb.txt		dump.rdb
+Movies						gurobi.lic
+Music						icon.png
+Olivia						jdk-8u111-macosx-x64.dmg
+Olivia_V2					jdk-8u121-macosx-x64.dmg
+Olivia_V3					jre-8u112-macosx-x64.dmg
+Olivia_V4					olivia_Draft2
+Olivia_V5					olivia_draft
+Olivia_V6					olivia_draft.Rproj
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+]0;~Olivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ cd
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Session01- Workshop Python.ipynb
+05-Writing Python Code.ipynb			Solutions to Sample Coding Questions.ipynb
+05_strings.ipynb				Untitled-2.ai
+AnacondaProjects				Untitled.R
+Applications					Untitled.ipynb
+Creative Cloud Files				Untitled1.ipynb
+DSO 522 - Week 1				Untitled2.ipynb
+Desktop						Untitled3.ipynb
+Documents					Untitled4.ipynb
+Downloads					Untitled5.ipynb
+Homework 3 .ipynb				Untitled6.ipynb
+Homework3_DSO570_Week3.ipynb			Untitled7.ipynb
+Lab 1						Virtual_Resume_Olivia
+Lab 2 						__pycache__
+Lab 3						bin
+Lab 5						decisiontrees.py
+Library						demo3
+MIP formulation phase 2.ipynb.txt		dump.rdb
+Movies						gurobi.lic
+Music						icon.png
+Olivia						jdk-8u111-macosx-x64.dmg
+Olivia_V2					jdk-8u121-macosx-x64.dmg
+Olivia_V3					jre-8u112-macosx-x64.dmg
+Olivia_V4					olivia_Draft2
+Olivia_V5					olivia_draft
+Olivia_V6					olivia_draft.Rproj
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+]0;~Olivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ git remote add orii[Kgin https://github.com/oliviahuang2018/olivia_power.git
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~Olivias-MacBook-Pro:~ olivia$ git clone https://github.com/oliviahuang2018/olivia_power.git
+Cloning into 'olivia_power'...
+remote: Counting objects: 3, done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+]0;~Olivias-MacBook-Pro:~ olivia$ git add remote origin https://github.com/oliviahuang2018/olivia_power.git
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~Olivias-MacBook-Pro:~ olivia$ [KOlivias-MacBook-Pro:~ olivia$ git init
+Initialized empty Git repository in /Users/olivia/.git/
+]0;~Olivias-MacBook-Pro:~ olivia$ cd ~/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls[K[Kcd
+]0;~Olivias-MacBook-Pro:~ olivia$ ls
+03-Decision trees.ipynb				Solutions to Sample Coding Questions.ipynb
+05-Writing Python Code.ipynb			Untitled-2.ai
+05_strings.ipynb				Untitled.R
+AnacondaProjects				Untitled.ipynb
+Applications					Untitled1.ipynb
+Creative Cloud Files				Untitled2.ipynb
+DSO 522 - Week 1				Untitled3.ipynb
+Desktop						Untitled4.ipynb
+Documents					Untitled5.ipynb
+Downloads					Untitled6.ipynb
+Homework 3 .ipynb				Untitled7.ipynb
+Homework3_DSO570_Week3.ipynb			Virtual_Resume_Olivia
+Lab 1						__pycache__
+Lab 2 						bin
+Lab 3						decisiontrees.py
+Lab 5						demo3
+Library						dump.rdb
+MIP formulation phase 2.ipynb.txt		gurobi.lic
+Movies						icon.png
+Music						jdk-8u111-macosx-x64.dmg
+Olivia						jdk-8u121-macosx-x64.dmg
+Olivia_V2					jre-8u112-macosx-x64.dmg
+Olivia_V3					olivia_Draft2
+Olivia_V4					olivia_draft
+Olivia_V5					olivia_draft.Rproj
+Olivia_V6					olivia_power
+Olivia_website					osx-rjava-install.log
+Pictures					project_phase1.ipynb
+Public						rJava_0.9-8.tar.gz
+R-3.3.2.pkg					titanic_practice
+Session01- Workshop Python.ipynb
+]0;~Olivias-MacBook-Pro:~ olivia$ lscd ~/olivia_Draft2[1Polivia_Draft2/olivia_Draft2
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls
+archetypes		content			layouts			resources
+config-empty.toml	data			olivia_Draft2.Rproj	static
+config.toml		index.Rmd		public			themes
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git init
+Initialized empty Git repository in /Users/olivia/olivia_Draft2/.git/
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add remote origin Not a git repository (or any of the parent directories):  .git
+bash: syntax error near unexpected token `('
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git asd more origi[K[K[K[K[K[K[K[K[K[K[K[K[Kdd remote origin https://github.com/oliviahuang2018/olivia_power.git
+fatal: pathspec 'remote' did not match any files
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git clone https://github.com/oliviahuang2018/olivia_power.git
+Cloning into 'olivia_power'...
+remote: Counting objects: 3, done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git clone https://github.com/oliviahuang2018/olivia_power.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12@add remote origin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: pathspec 'remote' did not match any files
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add remote origin https://github.com/oliviahuang2018/olivia_power.git
+fatal: pathspec 'remote' did not match any files
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/olivia_power.git
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ls
+archetypes		content			layouts			public			themes
+config-empty.toml	data			olivia_Draft2.Rproj	resources
+config.toml		index.Rmd		olivia_power		static
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A
+warning: adding embedded git repository: olivia_power
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> olivia_power
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached olivia_power
+hint: 
+hint: See "git help submodule" for more information.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -Als[Kgit remote add origin https://github.com/oliviahuang2018/olivia_power.git
+fatal: remote origin already exists.
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/olivia_power.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K

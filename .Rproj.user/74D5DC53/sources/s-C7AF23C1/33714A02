@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1535612286655.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "33714A02",
+    "lastKnownWriteTime" : 1535619036,
+    "last_content_update" : 1535619036128,
+    "path" : "~/Desktop/Titanic - practice/Titanic_Case .Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "393,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
