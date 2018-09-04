@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/localhost:1313/cope/</loc>
+    <loc>/oliviahuang.netlify.com/cope/</loc>
   </url>
   
   <url>
-    <loc>/localhost:1313/360pro/</loc>
+    <loc>/oliviahuang.netlify.com/360pro/</loc>
   </url>
   
   <url>
-    <loc>/localhost:1313/tedx/</loc>
+    <loc>/oliviahuang.netlify.com/tedx/</loc>
   </url>
   
   <url>
-    <loc>/localhost:1313/</loc>
+    <loc>/oliviahuang.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/localhost:1313/categories/</loc>
+    <loc>/oliviahuang.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/localhost:1313/tags/</loc>
+    <loc>/oliviahuang.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   

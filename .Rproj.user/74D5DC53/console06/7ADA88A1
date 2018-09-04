@@ -1047,3 +1047,38 @@ Static file changes detected
 Syncing /OliviaHuang.pdf to /
 File no longer exists in static dir, removing /Olivia Huang Final.pdf
 ^C]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m"MY[Ky second commit" 
+[master caf7bef] My second commit
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 30 files changed, 144 insertions(+), 60 deletions(-)
+ rewrite .Rproj.user/74D5DC53/console06/INDEX001 (85%)
+ create mode 100644 data/.DS_Store
+ delete mode 100644 public/ResumeCollado.pdf
+ create mode 100644 static/OliviaHuang.pdf
+ delete mode 100644 static/ResumeCollado.pdf
+ delete mode 100644 static/cope.pdf
+ create mode 100644 themes/hugo-lodi-theme/exampleSite/.DS_Store
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ push origin master
+bash: push: command not found
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git push origin master
+Counting objects: 47, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/45)   Compressing objects:   4% (2/45)   Compressing objects:   6% (3/45)   Compressing objects:   8% (4/45)   Compressing objects:  11% (5/45)   Compressing objects:  13% (6/45)   Compressing objects:  15% (7/45)   Compressing objects:  17% (8/45)   Compressing objects:  20% (9/45)   Compressing objects:  22% (10/45)   Compressing objects:  24% (11/45)   Compressing objects:  26% (12/45)   Compressing objects:  28% (13/45)   Compressing objects:  31% (14/45)   Compressing objects:  33% (15/45)   Compressing objects:  35% (16/45)   Compressing objects:  37% (17/45)   Compressing objects:  40% (18/45)   Compressing objects:  42% (19/45)   Compressing objects:  44% (20/45)   Compressing objects:  46% (21/45)   Compressing objects:  48% (22/45)   Compressing objects:  51% (23/45)   Compressing objects:  53% (24/45)   Compressing objects:  55% (25/45)   Compressing objects:  57% (26/45)   Compressing objects:  60% (27/45)   Compressing objects:  62% (28/45)   Compressing objects:  64% (29/45)   Compressing objects:  66% (30/45)   Compressing objects:  68% (31/45)   Compressing objects:  71% (32/45)   Compressing objects:  73% (33/45)   Compressing objects:  75% (34/45)   Compressing objects:  77% (35/45)   Compressing objects:  80% (36/45)   Compressing objects:  82% (37/45)   Compressing objects:  84% (38/45)   Compressing objects:  86% (39/45)   Compressing objects:  88% (40/45)   Compressing objects:  91% (41/45)   Compressing objects:  93% (42/45)   Compressing objects:  95% (43/45)   Compressing objects:  97% (44/45)   Compressing objects: 100% (45/45)   Compressing objects: 100% (45/45), done.
+Writing objects:   2% (1/47)   Writing objects:   4% (2/47)   Writing objects:   6% (3/47)   Writing objects:   8% (4/47)   Writing objects:  10% (5/47)   Writing objects:  12% (6/47)   Writing objects:  14% (7/47)   Writing objects:  17% (8/47)   Writing objects:  19% (9/47)   Writing objects:  21% (10/47)   Writing objects:  23% (11/47)   Writing objects:  25% (12/47)   Writing objects:  27% (13/47)   Writing objects:  29% (14/47)   Writing objects:  31% (15/47)   Writing objects:  34% (16/47)   Writing objects:  36% (17/47)   Writing objects:  38% (18/47)   Writing objects:  40% (19/47)   Writing objects:  42% (20/47)   Writing objects:  44% (21/47)   Writing objects:  46% (22/47)   Writing objects:  48% (23/47)   Writing objects:  51% (24/47)   Writing objects:  53% (25/47)   Writing objects:  55% (26/47)   Writing objects:  59% (28/47)   Writing objects:  61% (29/47)   Writing objects:  63% (30/47)   Writing objects:  65% (31/47)   Writing objects:  68% (32/47)   Writing objects:  70% (33/47)   Writing objects:  72% (34/47)   Writing objects:  74% (35/47)   Writing objects:  78% (37/47)   Writing objects:  80% (38/47)   Writing objects:  82% (39/47)   Writing objects:  87% (41/47)   Writing objects:  89% (42/47)   Writing objects:  91% (43/47)   Writing objects:  93% (44/47)   Writing objects:  95% (45/47)   Writing objects:  97% (46/47)   Writing objects: 100% (47/47)   Writing objects: 100% (47/47), 129.16 KiB | 2.15 MiB/s, done.
+Total 47 (delta 28), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/28)   [Kremote: Resolving deltas:   3% (1/28)   [Kremote: Resolving deltas:   7% (2/28)   [Kremote: Resolving deltas:  10% (3/28)   [Kremote: Resolving deltas:  14% (4/28)   [Kremote: Resolving deltas:  17% (5/28)   [Kremote: Resolving deltas:  21% (6/28)   [Kremote: Resolving deltas:  25% (7/28)   [Kremote: Resolving deltas:  28% (8/28)   [Kremote: Resolving deltas:  32% (9/28)   [Kremote: Resolving deltas:  35% (10/28)   [Kremote: Resolving deltas:  39% (11/28)   [Kremote: Resolving deltas:  42% (12/28)   [Kremote: Resolving deltas:  46% (13/28)   [Kremote: Resolving deltas:  53% (15/28)   [Kremote: Resolving deltas:  57% (16/28)   [Kremote: Resolving deltas:  60% (17/28)   [Kremote: Resolving deltas:  64% (18/28)   [Kremote: Resolving deltas:  67% (19/28)   [Kremote: Resolving deltas:  71% (20/28)   [Kremote: Resolving deltas:  82% (23/28)   [Kremote: Resolving deltas:  92% (26/28)   [Kremote: Resolving deltas:  96% (27/28)   [Kremote: Resolving deltas: 100% (28/28)   [Kremote: Resolving deltas: 100% (28/28), completed with 23 local objects.[K
+To https://github.com/oliviahuang2018/olivia_power.git
+   af9480b..caf7bef  master -> master
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ ad[K[Kad[K[Kgit add - [KA 
