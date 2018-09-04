@@ -22,10 +22,10 @@ Result From working on this project, I was able to successfully capture a cinema
     
     <item>
       <title>Unsupervised Machine Learning Project</title>
-      <link>/360pro/</link>
+      <link>/new-york-property-fraud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/360pro/</guid>
+      <guid>/new-york-property-fraud/</guid>
       <description>Description of Project In my Fraud Analytics course, my team and I performed a detailed analysis of &amp;lsquo;New York City Property Tax Valuation Data&amp;rsquo; and identified potential fraudulent records from the data set using unsupervised machine learning methods.
 Project Goal Our objective was to use machine learning algorthims, such as Autoencoder and Heuristic Algorithms, and calculate a fraud score for each of the New York Property data records to analyze anomalies for potential fraud detection.</description>
     </item>

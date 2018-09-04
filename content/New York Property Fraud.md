@@ -36,5 +36,5 @@ anomalies for potential fraud detection. We performed feature analysis methods, 
 Both the Heuristic
 and the Autoencoder Algorithmic approaches performed well in capturing anomalies in the New York Property dataset and were useful in detecting potential fraud. Using our Heuristic Alogrithm and fraud score calculation, we successfully detected several anomalies in certain fields from the New York Property dataset. 
 
-![](//localhost:1313/360pro/img/project3.png)
-![](//localhost:1313/360pro/img/project4.png)
+![](project3.png)
+![](project4.png)
