@@ -1,43 +1,4 @@
-]0;~/olivia_Draft2[?1034hOlivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ huog[K[Kgo server
-[?25lBuilding sites … [?25h[K
-                   | EN  
-+------------------+----+
-  Pages            |  7  
-  Paginator pages  |  0  
-  Non-page files   |  0  
-  Static files     | 54  
-  Processed images |  0  
-  Aliases          |  0  
-  Sitemaps         |  1  
-  Cleaned          |  0  
 
-Total in 293 ms
-Watching for changes in /Users/olivia/olivia_Draft2/{content,data,layouts,static,themes}
-Watching for config changes in /Users/olivia/olivia_Draft2/config.toml
-Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop
-
- ^C]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote ass origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add por[K[K[Korigin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git repo add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.git [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
-git: 'repo' is not a git command. See 'git --help'.
-
-The most similar commands are
-	grep
-	reflog
-	remote
-	repack
-]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote adds[K origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/olivia_Draft2[?1034hOlivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g it
-fatal: Not a git repository (or any of the parent directories): .git
-]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.giit[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Ke
 fatal: Not a git repository (or any of the parent directories): .git
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git remote add origin https://github.com/oliviahuang2018/Olivia_Huang_Website.g ikt[K[Kt
@@ -967,3 +928,122 @@ From https://github.com/oliviahuang2018/olivia_power
  * branch            master     -> FETCH_HEAD
 Already up to date.
 ]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m "Second"
+[master af9480b] Second
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 104 insertions(+), 13 deletions(-)
+ rewrite .Rproj.user/74D5DC53/console06/INDEX001 (85%)
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git o[Kpush origin master
+Counting objects: 339, done.
+Delta compression using up to 8 threads.
+Compressing objects:   0% (1/312)   Compressing objects:   1% (4/312)   Compressing objects:   2% (7/312)   Compressing objects:   3% (10/312)   Compressing objects:   4% (13/312)   Compressing objects:   5% (16/312)   Compressing objects:   6% (19/312)   Compressing objects:   7% (22/312)   Compressing objects:   8% (25/312)   Compressing objects:   9% (29/312)   Compressing objects:  10% (32/312)   Compressing objects:  11% (35/312)   Compressing objects:  12% (38/312)   Compressing objects:  13% (41/312)   Compressing objects:  14% (44/312)   Compressing objects:  15% (47/312)   Compressing objects:  16% (50/312)   Compressing objects:  17% (54/312)   Compressing objects:  18% (57/312)   Compressing objects:  19% (60/312)   Compressing objects:  20% (63/312)   Compressing objects:  21% (66/312)   Compressing objects:  22% (69/312)   Compressing objects:  23% (72/312)   Compressing objects:  24% (75/312)   Compressing objects:  25% (78/312)   Compressing objects:  26% (82/312)   Compressing objects:  27% (85/312)   Compressing objects:  28% (88/312)   Compressing objects:  29% (91/312)   Compressing objects:  30% (94/312)   Compressing objects:  31% (97/312)   Compressing objects:  32% (100/312)   Compressing objects:  33% (103/312)   Compressing objects:  34% (107/312)   Compressing objects:  35% (110/312)   Compressing objects:  36% (113/312)   Compressing objects:  37% (116/312)   Compressing objects:  38% (119/312)   Compressing objects:  39% (122/312)   Compressing objects:  40% (125/312)   Compressing objects:  41% (128/312)   Compressing objects:  42% (132/312)   Compressing objects:  43% (135/312)   Compressing objects:  44% (138/312)   Compressing objects:  45% (141/312)   Compressing objects:  46% (144/312)   Compressing objects:  47% (147/312)   Compressing objects:  48% (150/312)   Compressing objects:  49% (153/312)   Compressing objects:  50% (156/312)   Compressing objects:  51% (160/312)   Compressing objects:  52% (163/312)   Compressing objects:  53% (166/312)   Compressing objects:  54% (169/312)   Compressing objects:  55% (172/312)   Compressing objects:  56% (175/312)   Compressing objects:  57% (178/312)   Compressing objects:  58% (181/312)   Compressing objects:  59% (185/312)   Compressing objects:  60% (188/312)   Compressing objects:  61% (191/312)   Compressing objects:  62% (194/312)   Compressing objects:  63% (197/312)   Compressing objects:  64% (200/312)   Compressing objects:  65% (203/312)   Compressing objects:  66% (206/312)   Compressing objects:  67% (210/312)   Compressing objects:  68% (213/312)   Compressing objects:  69% (216/312)   Compressing objects:  70% (219/312)   Compressing objects:  71% (222/312)   Compressing objects:  72% (225/312)   Compressing objects:  73% (228/312)   Compressing objects:  74% (231/312)   Compressing objects:  75% (234/312)   Compressing objects:  76% (238/312)   Compressing objects:  77% (241/312)   Compressing objects:  78% (244/312)   Compressing objects:  79% (247/312)   Compressing objects:  80% (250/312)   Compressing objects:  81% (253/312)   Compressing objects:  82% (256/312)   Compressing objects:  83% (259/312)   Compressing objects:  84% (263/312)   Compressing objects:  85% (266/312)   Compressing objects:  86% (269/312)   Compressing objects:  87% (272/312)   Compressing objects:  88% (275/312)   Compressing objects:  89% (278/312)   Compressing objects:  90% (281/312)   Compressing objects:  91% (284/312)   Compressing objects:  92% (288/312)   Compressing objects:  93% (291/312)   Compressing objects:  94% (294/312)   Compressing objects:  95% (297/312)   Compressing objects:  96% (300/312)   Compressing objects:  97% (303/312)   Compressing objects:  98% (306/312)   Compressing objects:  99% (309/312)   Compressing objects: 100% (312/312)   Compressing objects: 100% (312/312), done.
+Writing objects:   0% (1/339)   Writing objects:   1% (4/339)   Writing objects:   2% (7/339)   Writing objects:   3% (12/339)   Writing objects:   4% (14/339)   Writing objects:   5% (18/339)   Writing objects:   6% (21/339)   Writing objects:   7% (25/339)   Writing objects:   8% (28/339)   Writing objects:   9% (31/339)   Writing objects:  10% (34/339)   Writing objects:  11% (38/339)   Writing objects:  12% (41/339)   Writing objects:  13% (45/339)   Writing objects:  14% (48/339)   Writing objects:  15% (51/339)   Writing objects:  16% (55/339)   Writing objects:  17% (58/339)   Writing objects:  18% (62/339)   Writing objects:  19% (65/339)   Writing objects:  20% (68/339)   Writing objects:  21% (72/339)   Writing objects:  22% (75/339)   Writing objects:  23% (78/339)   Writing objects:  24% (82/339)   Writing objects:  25% (85/339)   Writing objects:  26% (89/339)   Writing objects:  27% (92/339)   Writing objects:  28% (95/339)   Writing objects:  29% (99/339)   Writing objects:  30% (102/339)   Writing objects:  31% (106/339)   Writing objects:  33% (112/339)   Writing objects:  33% (113/339), 1.07 MiB | 346.00 KiB/s   Writing objects:  33% (113/339), 2.19 MiB | 484.00 KiB/s   Writing objects:  33% (113/339), 2.94 MiB | 578.00 KiB/s   Writing objects:  34% (116/339), 3.75 MiB | 671.00 KiB/s   Writing objects:  34% (117/339), 3.75 MiB | 671.00 KiB/s   Writing objects:  35% (119/339), 4.50 MiB | 737.00 KiB/s   Writing objects:  36% (123/339), 4.50 MiB | 737.00 KiB/s   Writing objects:  36% (123/339), 6.09 MiB | 845.00 KiB/s   Writing objects:  36% (123/339), 7.53 MiB | 1.22 MiB/s   Writing objects:  36% (123/339), 9.03 MiB | 1.41 MiB/s   Writing objects:  36% (123/339), 9.72 MiB | 1.41 MiB/s   Writing objects:  36% (124/339), 11.16 MiB | 1.40 MiB/s   Writing objects:  37% (126/339), 11.16 MiB | 1.40 MiB/s   Writing objects:  38% (129/339), 11.91 MiB | 1.44 MiB/s   Writing objects:  38% (132/339), 12.60 MiB | 1.38 MiB/s   Writing objects:  39% (133/339), 13.35 MiB | 1.39 MiB/s   Writing objects:  40% (137/339), 13.35 MiB | 1.39 MiB/s   Writing objects:  40% (137/339), 14.10 MiB | 1.40 MiB/s   Writing objects:  40% (137/339), 15.48 MiB | 1.37 MiB/s   Writing objects:  40% (137/339), 16.98 MiB | 1.38 MiB/s   Writing objects:  40% (138/339), 17.73 MiB | 1.38 MiB/s   Writing objects:  41% (139/339), 17.73 MiB | 1.38 MiB/s   Writing objects:  42% (143/339), 19.17 MiB | 1.38 MiB/s   Writing objects:  43% (146/339), 19.17 MiB | 1.38 MiB/s   Writing objects:  44% (150/339), 19.17 MiB | 1.38 MiB/s   Writing objects:  44% (150/339), 21.38 MiB | 1.37 MiB/s   Writing objects:  44% (150/339), 22.88 MiB | 1.40 MiB/s   Writing objects:  44% (150/339), 23.62 MiB | 1.40 MiB/s   Writing objects:  45% (153/339), 23.62 MiB | 1.40 MiB/s   Writing objects:  46% (156/339), 24.25 MiB | 1.38 MiB/s   Writing objects:  47% (160/339), 24.25 MiB | 1.38 MiB/s   Writing objects:  47% (161/339), 24.99 MiB | 1.40 MiB/s   Writing objects:  47% (161/339), 26.49 MiB | 1.39 MiB/s   Writing objects:  48% (163/339), 26.49 MiB | 1.39 MiB/s   Writing objects:  49% (167/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  50% (170/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  51% (173/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  52% (177/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  53% (180/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  54% (184/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  55% (187/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  56% (190/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  57% (195/339), 27.18 MiB | 1.38 MiB/s   Writing objects:  57% (195/339), 27.44 MiB | 1.26 MiB/s   Writing objects:  57% (195/339), 29.26 MiB | 1.32 MiB/s   Writing objects:  57% (195/339), 30.76 MiB | 1.33 MiB/s   Writing objects:  57% (195/339), 32.20 MiB | 1.32 MiB/s   Writing objects:  57% (195/339), 33.70 MiB | 1.33 MiB/s   Writing objects:  57% (195/339), 34.38 MiB | 1.44 MiB/s   Writing objects:  57% (195/339), 35.95 MiB | 1.40 MiB/s   Writing objects:  57% (195/339), 37.38 MiB | 1.38 MiB/s   Writing objects:  57% (195/339), 38.88 MiB | 1.40 MiB/s   Writing objects:  57% (195/339), 40.32 MiB | 1.38 MiB/s   Writing objects:  57% (195/339), 41.82 MiB | 1.40 MiB/s   Writing objects:  58% (197/339), 42.57 MiB | 1.39 MiB/s   Writing objects:  59% (201/339), 43.26 MiB | 1.38 MiB/s   Writing objects:  59% (203/339), 44.76 MiB | 1.39 MiB/s   Writing objects:  60% (204/339), 44.76 MiB | 1.39 MiB/s   Writing objects:  60% (205/339), 45.51 MiB | 1.39 MiB/s   Writing objects:  61% (207/339), 45.51 MiB | 1.39 MiB/s   Writing objects:  61% (208/339), 46.95 MiB | 1.40 MiB/s   Writing objects:  62% (211/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  63% (214/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  64% (217/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  65% (221/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  66% (224/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  67% (228/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  68% (231/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  69% (234/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  70% (238/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  71% (241/339), 47.70 MiB | 1.39 MiB/s   Writing objects:  71% (244/339), 48.45 MiB | 1.40 MiB/s   Writing objects:  72% (245/339), 48.45 MiB | 1.40 MiB/s   Writing objects:  73% (248/339), 48.45 MiB | 1.40 MiB/s   Writing objects:  74% (251/339), 49.14 MiB | 1.38 MiB/s   Writing objects:  74% (252/339), 49.14 MiB | 1.38 MiB/s   Writing objects:  74% (253/339), 50.64 MiB | 1.40 MiB/s   Writing objects:  74% (254/339), 52.09 MiB | 1.38 MiB/s   Writing objects:  75% (255/339), 52.09 MiB | 1.38 MiB/s   Writing objects:  76% (258/339), 52.09 MiB | 1.38 MiB/s   Writing objects:  77% (262/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  78% (265/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  79% (268/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  80% (272/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  81% (275/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  82% (278/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  83% (282/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  84% (285/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  85% (289/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  86% (292/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  87% (295/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  88% (299/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  89% (302/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  90% (306/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  91% (309/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  92% (312/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  93% (316/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  94% (319/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  95% (323/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  96% (326/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  97% (329/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  98% (333/339), 52.84 MiB | 1.40 MiB/s   Writing objects:  99% (336/339), 52.84 MiB | 1.40 MiB/s   Writing objects: 100% (339/339), 52.84 MiB | 1.40 MiB/s   Writing objects: 100% (339/339), 53.56 MiB | 1.28 MiB/s, done.
+Total 339 (delta 65), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/65)   [Kremote: Resolving deltas:   7% (5/65)   [Kremote: Resolving deltas:   9% (6/65)   [Kremote: Resolving deltas:  10% (7/65)   [Kremote: Resolving deltas:  15% (10/65)   [Kremote: Resolving deltas:  21% (14/65)   [Kremote: Resolving deltas:  26% (17/65)   [Kremote: Resolving deltas:  30% (20/65)   [Kremote: Resolving deltas:  35% (23/65)   [Kremote: Resolving deltas:  40% (26/65)   [Kremote: Resolving deltas:  41% (27/65)   [Kremote: Resolving deltas:  43% (28/65)   [Kremote: Resolving deltas:  44% (29/65)   [Kremote: Resolving deltas:  46% (30/65)   [Kremote: Resolving deltas:  47% (31/65)   [Kremote: Resolving deltas:  49% (32/65)   [Kremote: Resolving deltas:  52% (34/65)   [Kremote: Resolving deltas:  69% (45/65)   [Kremote: Resolving deltas:  75% (49/65)   [Kremote: Resolving deltas:  81% (53/65)   [Kremote: Resolving deltas:  83% (54/65)   [Kremote: Resolving deltas:  87% (57/65)   [Kremote: Resolving deltas:  89% (58/65)   [Kremote: Resolving deltas:  90% (59/65)   [Kremote: Resolving deltas:  92% (60/65)   [Kremote: Resolving deltas:  93% (61/65)   [Kremote: Resolving deltas:  96% (63/65)   [Kremote: Resolving deltas:  98% (64/65)   [Kremote: Resolving deltas: 100% (65/65)   [Kremote: Resolving deltas: 100% (65/65), done.[K
+To https://github.com/oliviahuang2018/olivia_power.git
+   f805c6c..af9480b  master -> master
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git [K[K[K[K[KOlivias-MacBook-Pro:olivia_Draft2 olivia$ hugo server
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            |  7  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 54  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 234 ms
+Watching for changes in /Users/olivia/olivia_Draft2/{content,data,layouts,static,themes}
+Watching for config changes in /Users/olivia/olivia_Draft2/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site
+2018-08-31 02:12:09.910 -0700
+Data changed "/Users/olivia/olivia_Draft2/data/process/skills.yaml": WRITE
+Total in 4 ms
+^C]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ hugo v[Kserver
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            |  7  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 54  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 239 ms
+Watching for changes in /Users/olivia/olivia_Draft2/{content,data,layouts,static,themes}
+Watching for config changes in /Users/olivia/olivia_Draft2/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+[KOlivias-MacBook-Pro:olivia_Draft2 olivia$ hugose[K[K server
+[?25lBuilding sites … [?25h[K
+                   | EN  
++------------------+----+
+  Pages            |  7  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 54  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 310 ms
+Watching for changes in /Users/olivia/olivia_Draft2/{content,data,layouts,static,themes}
+Watching for config changes in /Users/olivia/olivia_Draft2/config.toml
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site
+2018-09-03 22:44:16.630 -0700
+Source changed "/Users/olivia/olivia_Draft2/content/cope.md": WRITE
+Total in 4 ms
+
+Change detected, rebuilding site
+2018-09-03 22:45:09.632 -0700
+Source changed "/Users/olivia/olivia_Draft2/content/cope.md": WRITE
+Total in 4 ms
+
+Static file changes detected
+2018-09-03 22:52:40.630 -0700
+File no longer exists in static dir, removing /ResumeCollado.pdf
+
+Static file changes detected
+2018-09-03 22:55:54.633 -0700
+File no longer exists in static dir, removing /cope.pdf
+
+Static file changes detected
+2018-09-03 22:56:08.633 -0700
+Syncing /Olivia Huang Final.pdf to /
+
+Static file changes detected
+2018-09-03 22:56:16.635 -0700
+Syncing /OliviaHuang.pdf to /
+File no longer exists in static dir, removing /Olivia Huang Final.pdf
+^C]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git add -A

@@ -24,7 +24,7 @@ theme = "hugo-lodi-theme"
     subtitle = "Olivia Huang"
     hero_right = [
     "**Hi! I'm Olivia. I am currently a MS Business Analytics student at the University of Southern California.**",
-    "Previously, I studied Mathematics/Economics at the University of California, Los Angeles, with a minor in Entrepreneurship. I'm passionate about telling data-driven stories and all things data. I'm interested in startups, new product development and design, ",
+    "Previously, I studied Mathematics/Economics at the University of California, Los Angeles, with a minor in Entrepreneurship. I'm passionate about telling data-driven stories and all things data.",
     "Some of my favorite data blogs to follow and draw inspiration from are [Information is Beautiful](https://informationisbeautiful.net/) and [ThePudding] (https://pudding.cool/). I am intrigued by design thinking and beautiful visuals.", 
     "This is my [GitHub](https://github.com/oliviahuang2018)",
     "Feel free to contact me! Say hi on Twitter [@Olivia_Huang2018](https://twitter.com/Olivia_Huang18)"
