@@ -29,7 +29,7 @@ This was the Capstone project for my Statistical Computing and Data Visualizatio
 # Result  
 From creating this project, I was able to accurately pinpoint the vulnerable subpopulation of youth homeless in LA County. I was able to craft and present a compelling analyses, recommendations, and dashboard to LA County. 
 
-![](//localhost:1313/tedx/img/p2.png)
+![](p2.png)
 
-![](//localhost:1313/tedx/img/project1.png)
-![](//localhost:1313/tedx/img/project2.png)
+![](project1.png)
+![](project2.png)

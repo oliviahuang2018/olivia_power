@@ -27,4 +27,4 @@ For my Information Design course, I created a data visualization based on a topi
 From working on this project, I was able to successfully capture a cinematic and regal tone through my visual representation of the data, creating a compelling visualization for the audience. I accurately and clearly depicted film profit trends and patterns 
 
 
-![](//localhost:1313/cope/img/film.png)
+![](film.png)
