@@ -24,12 +24,15 @@ button_links:
 ---
 
 # Description of Project 
-This was the Capstone project for my Statistical Computing and Data Visualization Course at USC Marshall, in which we worked for Los Angeles County. My key roles were cleaning and analyzing data on LA County homeless count, specifically looking at the top 10 homeless communities and their ratio of unsheltered to sheltered homeless person. Second, I crafted visualizations and a formal presentation to map our group results. 
+This was the Capstone project for my Statistical Computing and Data Visualization Course at USC Marshall, in which we worked for Los Angeles County. My key roles were cleaning and analyzing data on LA County homeless count, specifically looking at the top 10 homeless communities and their ratio of unsheltered to sheltered homeless person. Second, I crafted visualizations and a formal presentation to map our group results.
 
 # Result  
 From creating this project, I was able to accurately pinpoint the vulnerable subpopulation of youth homeless in LA County. I was able to craft and present a compelling analyses, recommendations, and dashboard to LA County. 
 
-![](p2.png)
+<img src="/la0.png" width="672" />
 
-![](project1.png)
-![](project2.png)
+<img src="/la1.png" width="672" />
+
+<img src="/la2.png" width="672" />
+
+

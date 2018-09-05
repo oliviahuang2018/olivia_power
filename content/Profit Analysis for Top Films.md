@@ -14,7 +14,7 @@ team: ["-"]
 roles: ["Data Visualization"]
 methods: ["Adobe Illustrator"]
 button_links:
-    - link: "film.jpg"
+    - link: "film.pdf"
       img: "download.svg"
       text: "Download Final Version"
 
