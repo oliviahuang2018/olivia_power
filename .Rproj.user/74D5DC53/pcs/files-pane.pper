@@ -1,8 +1,8 @@
 {
-    "path" : "~/olivia_Draft2/archetypes",
+    "path" : "~/olivia_Draft2/themes/hugo-lodi-theme/layouts/partials",
     "sortOrder" : [
         {
-            "ascending" : false,
+            "ascending" : true,
             "columnIndex" : 2
         }
     ]

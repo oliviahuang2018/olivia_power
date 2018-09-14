@@ -1,152 +1,4 @@
 
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/134D58A3-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/18656E8D
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/18656E8D-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/32CF592B
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/32CF592B-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/33714A02
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/33714A02-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/7C3F7F2B
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/7C3F7F2B-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/BB87A93
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/BB87A93-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/DBE50A73
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/DBE50A73-contents
- create mode 100644 .Rproj.user/74D5DC53/sources/s-C7AF23C1/lock_file
- create mode 100644 .Rproj.user/74D5DC53/viewer-cache/FEA86A57.Rdata
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/74D5DC53FDBF71C7/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cobytc27ew0mo/00002b.csv
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cobytc27ew0mo/00002c.error
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cp5f2afu6cz6a/00004f.metadata
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cp5f2afu6cz6a/00004f.png
- create mode 100644 .Rproj.user/shared/notebooks/5153394D-Titanic_Case /1/s/cp5f2afu6cz6a/00004f.snapshot
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 archetypes/default.md
- create mode 100644 config-empty.toml
- create mode 100644 config.toml
- create mode 100644 content/360pro.md
- create mode 100644 content/cope.md
- create mode 100644 content/tedx.md
- create mode 100644 data/process/Experiences.yaml
- create mode 100644 data/process/coursework.yaml
- create mode 100644 data/process/design.yaml
- create mode 100644 data/process/discovery.yaml
- create mode 100644 data/process/research.yaml
- create mode 100644 data/process/skills.yaml
- create mode 100644 index.Rmd
- create mode 100644 olivia_Draft2.Rproj
- create mode 100644 public/.DS_Store
- create mode 100644 public/360pro/.DS_Store
- create mode 100644 public/360pro/DSO 562 Project 1 (2).pdf
- create mode 100644 public/360pro/img/.DS_Store
- create mode 100644 public/360pro/img/Screen Shot 2018-08-19 at 9.45.00 PM.png
- create mode 100644 public/360pro/img/Screen Shot 2018-08-19 at 9.45.18 PM.png
- create mode 100644 public/360pro/img/chappy.jpg
- create mode 100644 public/360pro/img/dfd.png
- create mode 100644 public/360pro/img/featured-360.jpg
- create mode 100644 public/360pro/img/field.jpg
- create mode 100644 public/360pro/img/jobstories.jpg
- create mode 100644 public/360pro/img/project.jpg
- create mode 100644 public/360pro/img/project.png
- create mode 100644 public/360pro/img/project1.png
- create mode 100644 public/360pro/img/project2.png
- create mode 100644 public/360pro/img/project3.png
- create mode 100644 public/360pro/img/project4.png
- create mode 100644 public/360pro/img/starttest.png
- create mode 100644 public/360pro/img/testing.png
- create mode 100644 public/360pro/img/track.jpg
- create mode 100644 public/360pro/index.html
- create mode 100644 public/360pro/project1.pdf
- create mode 100644 public/Final Report.pdf
- create mode 100644 public/ResumeCollado.pdf
- create mode 100644 public/categories/index.xml
- create mode 100644 public/cope.pdf
- create mode 100644 public/cope/.DS_Store
- create mode 100644 public/cope/img/.DS_Store
- create mode 100644 public/cope/img/film.jpg
- create mode 100644 public/cope/img/film.png
- create mode 100644 public/cope/index.html
- create mode 100644 public/css/final.css
- create mode 100644 public/css/normalize.css
- create mode 100644 public/img/.DS_Store
- create mode 100644 public/img/20170825_MSBA_Portraits_0895_F.jpg
- create mode 100644 public/img/360.jpg
- create mode 100644 public/img/Untitled-2_Artboard .png
- create mode 100644 public/img/cope.jpg
- create mode 100644 public/img/favicon.png
- create mode 100644 public/img/film.jpg
- create mode 100644 public/img/icon-01.png
- create mode 100644 public/img/icon.png
- create mode 100644 public/img/logo-02.png
- create mode 100644 public/img/logo-03.png
- create mode 100644 public/img/logo.png
- create mode 100644 public/img/logo1.png
- create mode 100644 public/img/los angeles.jpg
- create mode 100644 public/img/medium.png
- create mode 100644 public/img/olivia.jpg
- create mode 100644 public/img/olivia.png
- create mode 100644 public/img/olivia_logo.jpg
- create mode 100644 public/img/oliviahuang.png
- create mode 100644 public/img/portfolio.jpg
- create mode 100644 public/img/project.jpg
- create mode 100644 public/img/tedx.jpg
- create mode 100644 public/index.html
- create mode 100644 public/index.xml
- create mode 100644 public/js/jquery-1.js
- create mode 100644 public/js/scrollIt.js
- create mode 100644 public/js/stickUp.js
- create mode 100644 public/sitemap.xml
- create mode 100644 public/svg/book.svg
- create mode 100644 public/svg/closetag.svg
- create mode 100644 public/svg/dl-resume.svg
- create mode 100644 public/svg/download.svg
- create mode 100644 public/svg/eyeball.svg
- create mode 100644 public/svg/repeat.svg
- create mode 100644 public/svg/rulerpencil.svg
- create mode 100644 public/svg/ui.svg
- create mode 100644 public/svg/wand.svg
- create mode 100644 public/tags/index.xml
- create mode 100644 public/tags/plot/index.xml
- create mode 100644 public/tags/r-markdown/index.xml
- create mode 100644 public/tags/regression/index.xml
- create mode 100644 public/tedx/.DS_Store
- create mode 100644 public/tedx/Final Report.pdf
- create mode 100644 public/tedx/img/.DS_Store
- create mode 100644 public/tedx/img/545_final!!.pdf
- create mode 100644 public/tedx/img/cta.png
- create mode 100644 public/tedx/img/enzo.jpg
- create mode 100644 public/tedx/img/events.png
- create mode 100644 public/tedx/img/featured-tedx.jpg
- create mode 100644 public/tedx/img/los angeles.jpg
- create mode 100644 public/tedx/img/moodboard.jpg
- create mode 100644 public/tedx/img/nate.jpg
- create mode 100644 public/tedx/img/nextstepsted.jpg
- create mode 100644 public/tedx/img/p1.png
- create mode 100644 public/tedx/img/p2.png
- create mode 100644 public/tedx/img/phases.png
- create mode 100644 public/tedx/img/ppt.pdf
- create mode 100644 public/tedx/img/project.png
- create mode 100644 public/tedx/img/project1.png
- create mode 100644 public/tedx/img/project2.png
- create mode 100644 public/tedx/img/projecti7.jpg
- create mode 100644 public/tedx/img/sketchted.jpg
- create mode 100644 public/tedx/img/whycoordinate.jpg
- create mode 100644 public/tedx/index.html
- create mode 100644 public/tedx/ppt.pdf
- create mode 100644 static/.DS_Store
- create mode 100644 static/360pro/.DS_Store
- create mode 100644 static/360pro/img/.DS_Store
- create mode 100644 static/360pro/img/project.jpg
- create mode 100644 static/360pro/img/project.png
- create mode 100644 static/360pro/img/project1.png
- create mode 100644 static/360pro/img/project2.png
- create mode 100644 static/360pro/img/project3.png
- create mode 100644 static/360pro/img/project4.png
- create mode 100644 static/360pro/project1.pdf
- create mode 100644 static/ResumeCollado.pdf
- create mode 100644 static/cope.pdf
  create mode 100644 static/cope/.DS_Store
  create mode 100644 static/cope/img/.DS_Store
  create mode 100644 static/cope/img/film.jpg
@@ -1000,3 +852,151 @@ remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:   5% (1/17
 To https://github.com/oliviahuang2018/olivia_power.git
    528d0a0..be324d5  master -> master
 [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ [KOlivias-MacBook-Pro:olivia_Draft2 olivia$ git aa[Kdd -A
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ git commit -m"Fixe d [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K "Fix ed photos and files in cases"
+[master 0c8b097] Fixed photos and files in cases
+ Committer: Olivia Huang <olivia@Olivias-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 124 files changed, 87 insertions(+), 321 deletions(-)
+ rewrite .RData (93%)
+ rewrite .Rproj.user/74D5DC53/console06/INDEX001 (85%)
+ rename {static/tedx => content}/Final Report.pdf (100%)
+ create mode 100644 content/film.pdf
+ rename content/{p2.png => la0.png} (100%)
+ rename content/{project1.png => la1.png} (100%)
+ rename content/{project2.png => la2.png} (100%)
+ rename {static/tedx => content}/ppt.pdf (100%)
+ rename {static/360pro => content}/project1.pdf (100%)
+ create mode 100644 public/LA County Homelessness/.DS_Store
+ create mode 100644 public/LA County Homelessness/Final Report.pdf
+ rename {static/360pro => public/LA County Homelessness}/img/.DS_Store (100%)
+ rename {static/tedx => public/LA County Homelessness}/img/los angeles.jpg (100%)
+ rename {static/tedx => public/LA County Homelessness}/img/p1.png (100%)
+ rename {static/tedx => public/LA County Homelessness}/img/p2.png (100%)
+ rename {static/tedx => public/LA County Homelessness}/img/project.png (100%)
+ rename {static/tedx => public/LA County Homelessness}/img/project1.png (100%)
+ rename {static/tedx => public/LA County Homelessness}/img/project2.png (100%)
+ create mode 100644 public/LA County Homelessness/ppt.pdf
+ rename {static/tedx => public/New York Property Fraud}/.DS_Store (90%)
+ rename {static/cope => public/New York Property Fraud}/img/.DS_Store (100%)
+ rename {static/360pro => public/New York Property Fraud}/img/project.jpg (100%)
+ rename {static/360pro => public/New York Property Fraud}/img/project.png (100%)
+ rename {static/360pro => public/New York Property Fraud}/img/project1.png (100%)
+ rename {static/360pro => public/New York Property Fraud}/img/project2.png (100%)
+ rename {static/360pro => public/New York Property Fraud}/img/project3.png (100%)
+ rename {static/360pro => public/New York Property Fraud}/img/project4.png (100%)
+ create mode 100644 public/New York Property Fraud/project1.pdf
+ rename {static/360pro => public/New York Property Fraud}/project3.png (100%)
+ rename {static/360pro => public/New York Property Fraud}/project4.png (100%)
+ create mode 100644 public/Olivia Huang Resume .pdf
+ rewrite public/OliviaHuang.pdf (85%)
+ rename {static/cope => public/Profit Analysis for Top Films}/.DS_Store (90%)
+ rename {static/cope/img => public/Profit Analysis for Top Films}/film.jpg (100%)
+ rename {static/cope/img => public/Profit Analysis for Top Films}/film.png (100%)
+ rename {static/tedx => public/Profit Analysis for Top Films}/img/.DS_Store (100%)
+ create mode 100644 public/Profit Analysis for Top Films/img/film.jpg
+ create mode 100644 public/Profit Analysis for Top Films/img/film.png
+ create mode 100644 public/film.pdf
+ create mode 100644 public/la-county-homelessness/.DS_Store
+ create mode 100644 public/la-county-homelessness/Final Report.pdf
+ create mode 100644 public/la-county-homelessness/img/.DS_Store
+ create mode 100644 public/la-county-homelessness/img/los angeles.jpg
+ create mode 100644 public/la-county-homelessness/img/p1.png
+ create mode 100644 public/la-county-homelessness/img/p2.png
+ create mode 100644 public/la-county-homelessness/img/project.png
+ create mode 100644 public/la-county-homelessness/img/project1.png
+ create mode 100644 public/la-county-homelessness/img/project2.png
+ create mode 100644 public/la-county-homelessness/ppt.pdf
+ create mode 100644 public/la0.png
+ create mode 100644 public/la1.png
+ create mode 100644 public/la2.png
+ create mode 100644 public/new-york-property-fraud/.DS_Store
+ create mode 100644 public/new-york-property-fraud/img/.DS_Store
+ create mode 100644 public/new-york-property-fraud/img/project.jpg
+ create mode 100644 public/new-york-property-fraud/img/project.png
+ create mode 100644 public/new-york-property-fraud/img/project1.png
+ create mode 100644 public/new-york-property-fraud/img/project2.png
+ create mode 100644 public/new-york-property-fraud/img/project3.png
+ create mode 100644 public/new-york-property-fraud/img/project4.png
+ create mode 100644 public/new-york-property-fraud/project1.pdf
+ create mode 100644 public/new-york-property-fraud/project3.png
+ create mode 100644 public/new-york-property-fraud/project4.png
+ create mode 100644 public/ppt.pdf
+ rename {static/360pro => public/profit-analysis-for-top-films}/.DS_Store (69%)
+ create mode 100644 public/profit-analysis-for-top-films/film.jpg
+ create mode 100644 public/profit-analysis-for-top-films/film.pdf
+ create mode 100644 public/profit-analysis-for-top-films/film.png
+ create mode 100644 public/profit-analysis-for-top-films/img/.DS_Store
+ create mode 100644 public/profit-analysis-for-top-films/img/film.jpg
+ create mode 100644 public/profit-analysis-for-top-films/img/film.pdf
+ create mode 100644 public/profit-analysis-for-top-films/img/film.png
+ create mode 100644 public/project1.pdf
+ rewrite static/OliviaHuang.pdf (85%)
+ create mode 100644 static/la-county-homelessness/.DS_Store
+ create mode 100644 static/la-county-homelessness/Final Report.pdf
+ create mode 100644 static/la-county-homelessness/img/.DS_Store
+ create mode 100644 static/la-county-homelessness/img/los angeles.jpg
+ create mode 100644 static/la-county-homelessness/img/p1.png
+ create mode 100644 static/la-county-homelessness/img/p2.png
+ create mode 100644 static/la-county-homelessness/img/project.png
+ create mode 100644 static/la-county-homelessness/img/project1.png
+ create mode 100644 static/la-county-homelessness/img/project2.png
+ create mode 100644 static/la-county-homelessness/ppt.pdf
+ create mode 100644 static/new-york-property-fraud/.DS_Store
+ create mode 100644 static/new-york-property-fraud/img/.DS_Store
+ create mode 100644 static/new-york-property-fraud/img/project.jpg
+ create mode 100644 static/new-york-property-fraud/img/project.png
+ create mode 100644 static/new-york-property-fraud/img/project1.png
+ create mode 100644 static/new-york-property-fraud/img/project2.png
+ create mode 100644 static/new-york-property-fraud/img/project3.png
+ create mode 100644 static/new-york-property-fraud/img/project4.png
+ create mode 100644 static/new-york-property-fraud/project1.pdf
+ create mode 100644 static/new-york-property-fraud/project3.png
+ create mode 100644 static/new-york-property-fraud/project4.png
+ create mode 100644 static/profit-analysis-for-top-films/.DS_Store
+ create mode 100644 static/profit-analysis-for-top-films/film.jpg
+ create mode 100644 static/profit-analysis-for-top-films/film.pdf
+ create mode 100644 static/profit-analysis-for-top-films/film.png
+ create mode 100644 static/profit-analysis-for-top-films/img/.DS_Store
+ create mode 100644 static/profit-analysis-for-top-films/img/film.jpg
+ create mode 100644 static/profit-analysis-for-top-films/img/film.pdf
+ create mode 100644 static/profit-analysis-for-top-films/img/film.png
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ go[Kit push origin ma ster
+Counting objects: 51, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/48)   Compressing objects:   4% (2/48)   Compressing objects:   6% (3/48)   Compressing objects:   8% (4/48)   Compressing objects:  10% (5/48)   Compressing objects:  12% (6/48)   Compressing objects:  14% (7/48)   Compressing objects:  16% (8/48)   Compressing objects:  18% (9/48)   Compressing objects:  20% (10/48)   Compressing objects:  22% (11/48)   Compressing objects:  25% (12/48)   Compressing objects:  27% (13/48)   Compressing objects:  29% (14/48)   Compressing objects:  31% (15/48)   Compressing objects:  33% (16/48)   Compressing objects:  35% (17/48)   Compressing objects:  37% (18/48)   Compressing objects:  39% (19/48)   Compressing objects:  41% (20/48)   Compressing objects:  43% (21/48)   Compressing objects:  45% (22/48)   Compressing objects:  47% (23/48)   Compressing objects:  50% (24/48)   Compressing objects:  52% (25/48)   Compressing objects:  54% (26/48)   Compressing objects:  56% (27/48)   Compressing objects:  58% (28/48)   Compressing objects:  60% (29/48)   Compressing objects:  62% (30/48)   Compressing objects:  64% (31/48)   Compressing objects:  66% (32/48)   Compressing objects:  68% (33/48)   Compressing objects:  70% (34/48)   Compressing objects:  72% (35/48)   Compressing objects:  75% (36/48)   Compressing objects:  77% (37/48)   Compressing objects:  79% (38/48)   Compressing objects:  81% (39/48)   Compressing objects:  83% (40/48)   Compressing objects:  85% (41/48)   Compressing objects:  87% (42/48)   Compressing objects:  89% (43/48)   Compressing objects:  91% (44/48)   Compressing objects:  93% (45/48)   Compressing objects:  95% (46/48)   Compressing objects:  97% (47/48)   Compressing objects: 100% (48/48)   Compressing objects: 100% (48/48), done.
+Writing objects:   1% (1/51)   Writing objects:   3% (2/51)   Writing objects:   5% (3/51)   Writing objects:   7% (4/51)   Writing objects:   9% (5/51)   Writing objects:  11% (6/51)   Writing objects:  13% (7/51)   Writing objects:  15% (8/51)   Writing objects:  17% (9/51)   Writing objects:  19% (10/51)   Writing objects:  21% (11/51)   Writing objects:  23% (12/51)   Writing objects:  25% (13/51)   Writing objects:  27% (14/51)   Writing objects:  29% (15/51)   Writing objects:  31% (16/51)   Writing objects:  33% (17/51)   Writing objects:  35% (18/51)   Writing objects:  37% (19/51)   Writing objects:  39% (20/51)   Writing objects:  41% (21/51)   Writing objects:  43% (22/51)   Writing objects:  45% (23/51)   Writing objects:  47% (24/51)   Writing objects:  49% (25/51)   Writing objects:  50% (26/51)   Writing objects:  52% (27/51)   Writing objects:  54% (28/51)   Writing objects:  56% (29/51)   Writing objects:  58% (30/51)   Writing objects:  62% (32/51)   Writing objects:  66% (34/51)   Writing objects:  70% (36/51)   Writing objects:  72% (37/51)   Writing objects:  74% (38/51)   Writing objects:  76% (39/51)   Writing objects:  80% (41/51)   Writing objects:  82% (42/51)   Writing objects:  84% (43/51)   Writing objects:  86% (44/51)   Writing objects:  88% (45/51)   Writing objects:  90% (46/51)   Writing objects:  92% (47/51)   Writing objects:  94% (48/51)   Writing objects:  96% (49/51)   Writing objects:  98% (50/51)   Writing objects: 100% (51/51)   Writing objects: 100% (51/51), 854.45 KiB | 8.99 MiB/s, done.
+Total 51 (delta 30), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/30)   [Kremote: Resolving deltas:  16% (5/30)   [Kremote: Resolving deltas:  20% (6/30)   [Kremote: Resolving deltas:  23% (7/30)   [Kremote: Resolving deltas:  26% (8/30)   [Kremote: Resolving deltas:  30% (9/30)   [Kremote: Resolving deltas:  33% (10/30)   [Kremote: Resolving deltas:  36% (11/30)   [Kremote: Resolving deltas:  40% (12/30)   [Kremote: Resolving deltas:  43% (13/30)   [Kremote: Resolving deltas:  46% (14/30)   [Kremote: Resolving deltas:  50% (15/30)   [Kremote: Resolving deltas:  53% (16/30)   [Kremote: Resolving deltas:  56% (17/30)   [Kremote: Resolving deltas:  60% (18/30)   [Kremote: Resolving deltas:  63% (19/30)   [Kremote: Resolving deltas:  66% (20/30)   [Kremote: Resolving deltas:  70% (21/30)   [Kremote: Resolving deltas:  73% (22/30)   [Kremote: Resolving deltas:  76% (23/30)   [Kremote: Resolving deltas:  80% (24/30)   [Kremote: Resolving deltas:  83% (25/30)   [Kremote: Resolving deltas:  86% (26/30)   [Kremote: Resolving deltas:  93% (28/30)   [Kremote: Resolving deltas:  96% (29/30)   [Kremote: Resolving deltas: 100% (30/30)   [Kremote: Resolving deltas: 100% (30/30), completed with 21 local objects.[K
+To https://github.com/oliviahuang2018/olivia_power.git
+   be324d5..0c8b097  master -> master
+hugo new titani d[Kc.md
+Error: /Users/olivia/olivia_Draft2/content/titanic.md already exists
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ hugo new titanicc.md
+/Users/olivia/olivia_Draft2/content/titanic.md created
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ hugo new titanicc.md[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjupyter notebook[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chugo new titanic.md\[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Klol.md [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kd
+/Users/olivia/olivia_Draft2/content/lol.md created
+[KOlivias-MacBook-Pro:olivia_Draft2 olivia$ hugo new titanic.md
+/Users/olivia/olivia_Draft2/content/titanic.md created
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ new titanic.md
+bash: new: command not found
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ touch titanic.md
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ huggo new titanic.md[1P
+/Users/olivia/olivia_Draft2/content/titanic.md created
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ huggo new titanic.md[1P
+/Users/olivia/olivia_Draft2/content/titanic.md created
+]0;~/olivia_Draft2Olivias-MacBook-Pro:olivia_Draft2 olivia$ hugo new titanic.md
+/Users/olivia/olivia_Draft2/content/titanic.md created
+git add -A

@@ -5,12 +5,12 @@ description: "We used R and Tableau to perform feature analysis methods on New Y
 nav_heading: "Fraud Analytics"
 thumbnail: "project.jpg"
 case_short_title: "New York Property Fraud"
-case_title: "Unsupervised Machine Learning Project"
+case_title: "New York Property Fraud"
 case_subtitle: "Unsupervised Machine Learning Project"
 case_description: "Detected abnormalities and potential fraud in 2011 New York Property dataset."
 case_feature_img: "project.jpg"
 case_summary: "Used R and Tableau to perform feature analysis methods on New York Property dataset and detect abnormality and potential fraud."
-team: ["Louis Yansaud", "Jamie Lee", "Tong Xie", "Conglin Xu", "Ravi Gangumalla"]
+team: ["Olivia Huang", "Louis Yansaud", "Jamie Lee", "Tong Xie", "Conglin Xu", "Ravi Gangumalla"]
 roles: ["Data Cleaning", "Data Visualization"]
 methods: ["R", "Tableau", "Principle Component Analysis", "Microsoft Word", "Excel"]
 button_links:
